@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion
+{
+    width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.navegacion ul
+{
+    list-style: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li > a
+{
+    display: block;
+    padding: 15px 60px;
+    color: #353535;
+    font-family: "Arial Narrow";
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    color: #CE7D35;
+    transition: all 0.5s;
+}
+
+
+
+
+
+.pie_pagina
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align-last:center ;
+}
+
+.bloque
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    position: relative;
+    width: 1000px;
+    background-color: #ffffff;
+    margin: auto;
+    font-family: "Arial Narrow";
+    font-size: xx-large;
+    text-align: justify;
+    z-index: -2;
+}
+
+@media screen and (max-width: 1080px) {
+    .bloque{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        
+    }
+
+    
+body
+{
+    background-color: black
+
+}
+
+.home
+{
+    display: block;
+    padding-left: 200px;
+
+}
+
+.referencia
+{
+    display:block;
+    padding: 20px;
+    position: relative;
+    width: 1000px;;
+    margin: auto;
+    font-family: "Times New Roman";
+    font-size: small;
+    text-align: justify;
+    z-index: -2;  
+}
+
+.bloque .interno{
+
+    border: black 1px solid;
+    width: 200px;
+    height: 240px;
+    border-radius: 5%;
+    margin: 20px 20px 20px 20px;
+ 
+}
+
+
+
+
+
+
+
